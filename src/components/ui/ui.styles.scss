@@ -1,0 +1,27 @@
+//header
+.seek{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color:white!important;
+}
+
+//footer
+.footer{
+    width: 100%;
+    height: 330px;
+    background-color: #0C0E0F;
+
+    h3,h1{
+        color:#e1e1e1;
+    }
+    h3{
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    h6{
+        color:grey;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: lighter;
+        font-size: 18px;
+    }
+}

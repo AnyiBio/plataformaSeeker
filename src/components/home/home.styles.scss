@@ -1,0 +1,22 @@
+.home{
+    background-image: url(../../images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 460px;
+    z-index:1;
+    position:relative;
+    h1{
+        font-family: 'Work Sans', sans-serif;
+        color:white;
+    }
+}
+.home::after {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.3);
+    z-index:-1;
+  }
